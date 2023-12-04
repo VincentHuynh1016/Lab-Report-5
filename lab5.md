@@ -31,24 +31,23 @@ Having addressed issues in my code, specifically addressing the problematic use 
 
 # Part 4
 
-1.
+### The file & directory structure needed:
 
-The repository I am using: `https://github.com/CalKong/grader-review-CalKong`
+- The repository I am using: `https://github.com/CalKong/grader-review-CalKong`
 
-My working directory: `/Users/vincenthuynh/grader-review-CalKong`
+- My working directory: `/Users/vincenthuynh/grader-review-CalKong`
 
-The file I am editing and running: grade.sh
+- The file I am editing and running: `grade.sh`
 
-2. 
+### The contents of each file before change:
 
-The contents of each file before change:
-
-#### Grade.sh:
+## - Grade.sh:
 <img width="869" alt="Screenshot 2023-12-03 at 3 12 18 PM" src="https://github.com/VincentHuynh1016/Lab-Report-5/assets/114731503/ceea60a2-a376-4bd7-96c1-dc499efae293">
 
 <img width="796" alt="Screenshot 2023-12-03 at 3 13 00 PM" src="https://github.com/VincentHuynh1016/Lab-Report-5/assets/114731503/7a3e466f-396e-4728-a2f0-98d1e5ba5417">
 
-#### GraderServer.java
+
+## - GraderServer.java:
 
 <img width="815" alt="Screenshot 2023-12-03 at 3 40 33 PM" src="https://github.com/VincentHuynh1016/Lab-Report-5/assets/114731503/b859cce4-3e5c-4246-91e0-6b78d1bb5070">
 
@@ -56,23 +55,26 @@ The contents of each file before change:
 
 <img width="870" alt="Screenshot 2023-12-03 at 3 41 12 PM" src="https://github.com/VincentHuynh1016/Lab-Report-5/assets/114731503/2fcd8803-e76f-4e0c-88ab-319f45568e73">
 
-#### TestExamples.java
+
+## - TestExamples.java:
 
 <img width="791" alt="Screenshot 2023-12-03 at 3 43 45 PM" src="https://github.com/VincentHuynh1016/Lab-Report-5/assets/114731503/7eb8ea97-462f-4a30-98ad-1f4f29c504c7">
 
 <img width="904" alt="Screenshot 2023-12-03 at 3 44 00 PM" src="https://github.com/VincentHuynh1016/Lab-Report-5/assets/114731503/641484b4-7b2e-4799-8eb8-944832e197dc">
 
-### Server.java
+
+## - Server.java:
 
 <img width="770" alt="Screenshot 2023-12-03 at 3 44 22 PM" src="https://github.com/VincentHuynh1016/Lab-Report-5/assets/114731503/c50ccd69-03a9-42bd-b55a-448307c2a903">
 
-3. 
+
+### The full command line (or lines) you ran to trigger the bug
 
 - `git clone https://github.com/CalKong/grader-review-CalKong`
 - `cd grader-review-CalKong`
 - `bash grade.sh https://github.com/ucsd-cse15l-f22/list-methods-compile-error`
 
-4. 
+### A description of what to edit to fix the bug
    
 I am already in the correct directory : `/Users/vincenthuynh/grader-review-CalKong`
 
