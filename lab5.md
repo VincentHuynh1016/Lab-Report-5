@@ -27,7 +27,7 @@ Output of the code after change:
 <img width="1217" alt="Screenshot 2023-12-03 at 3 22 45 PM" src="https://github.com/VincentHuynh1016/Lab-Report-5/assets/114731503/3df5dfd9-a9f8-4093-b5c7-a1f15fc66275">
 
 Response:
-After rectifying the issues in my code, particularly the use of 'if [ $? -ne 0 ];', which essentially checks for a compilation error and proceeds to execute the subsequent code even in the presence of an error, I've revised the logic to promptly echo a compilation error message and exit the script.
+Having addressed issues in my code, specifically addressing the problematic use of 'if [ $? -ne 0 ];', a condition that incorrectly allowed the execution of subsequent code despite a compilation error, I've refined the logic. The script now effectively utilizes the `echo` command to communicate a concise compilation error message and gracefully exits when encountering such errors.
 
 # Part 4
 
@@ -37,7 +37,7 @@ The repository I am using: `https://github.com/CalKong/grader-review-CalKong`
 
 My working directory: `/Users/vincenthuynh/grader-review-CalKong`
 
-The file I am using: grade.sh
+The file I am editing and running: grade.sh
 
 2. 
 
@@ -73,6 +73,7 @@ The contents of each file before change:
 - `bash grade.sh https://github.com/ucsd-cse15l-f22/list-methods-compile-error`
 
 4. 
+   
 I am already in the correct directory : `/Users/vincenthuynh/grader-review-CalKong`
 
 - `cat grade.sh` (I am looking at the code to see if there are any errors)
@@ -83,4 +84,5 @@ I am already in the correct directory : `/Users/vincenthuynh/grader-review-CalKo
 
 # Reflection:
 
+What I have learned from my lab experience in the second half of this quarter that I did not know before is I have gained valuable insights into utilizing the Vim command. The proficiency acquired involves efficiently editing files directly from the terminal and seamlessly saving modifications using Vim. Additionally, we delved into the practical aspects of Git commands such as 'git add,' 'git status,' 'git push,' and 'git pull.' This newfound knowledge proves invaluable in the world of coding, enhancing collaborative work, version control, and overall development workflows. 
 
